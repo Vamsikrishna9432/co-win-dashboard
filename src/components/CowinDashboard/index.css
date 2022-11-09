@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #161625;
+  height: 100vh;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+}
+.content-container {
+  width: 80%;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+.logo-name {
+  font-size: 25px;
+  color: #2cc6c6;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.head {
+  color: #cbd5e1;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.barchart-container {
+  background-color: #1c1c2b;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bar-heading {
+  color: #cbd5e1;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.failure-container {
+  margin: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure {
+  width: 250px;
+  height: 220px;
+}
+.fail-head {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
